@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+            @-webkit-keyframes blinker {  
+                from { opacity: 1.0; }
+                to { opacity: 0.0; }
+            }
+            html, body, .highlight {
+                height: 100%;
+            }
+            .highlight {
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+                font-size: 24pt;
+                color: red;
+                -webkit-animation-name: blinker;  
+                -webkit-animation-iteration-count: infinite;  
+                -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+                -webkit-animation-duration: 1s; 
+            }
+        </style>
+
+        <title>Salü!</title>
+    </head>
+
+    <body>
+        <p class="highlight">Coming soon...</p>
+    </body>
+</html>
